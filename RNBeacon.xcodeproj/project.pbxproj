@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13BE3DEE1AC21097009241FE /* RNBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BE3DED1AC21097009241FE /* RNBeacon.m */; };
+		28428EC41E4C63E6004EDF24 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28428EC31E4C63E6004EDF24 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		134814201AA4EA6300B7C361 /* libRNBeacon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBeacon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		13BE3DEC1AC21097009241FE /* RNBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBeacon.h; sourceTree = "<group>"; };
 		13BE3DED1AC21097009241FE /* RNBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBeacon.m; sourceTree = "<group>"; };
+		28428EC31E4C63E6004EDF24 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28428EC41E4C63E6004EDF24 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,12 +50,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		28428EC21E4C63E6004EDF24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28428EC31E4C63E6004EDF24 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
 				13BE3DEC1AC21097009241FE /* RNBeacon.h */,
 				13BE3DED1AC21097009241FE /* RNBeacon.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				28428EC21E4C63E6004EDF24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
