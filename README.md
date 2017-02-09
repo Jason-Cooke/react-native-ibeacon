@@ -1,3 +1,12 @@
+Forked from [@frostney frostney/react-native-ibeacon](https://github.com/frostney/react-native-ibeacon)
+
+# Edit
+
+- Update headers to be compatible with react-native@0.40.0+
+
+
+# Original Readme
+
 # react-native-ibeacon
 iBeacon support for React Native. The API is very similar to the CoreLocation Objective-C one with the only major difference that regions are plain JavaScript objects.
 Beacons don't work in the iOS simulator.
