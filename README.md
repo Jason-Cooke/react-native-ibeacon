@@ -3,7 +3,20 @@ Forked from [@frostney frostney/react-native-ibeacon](https://github.com/frostne
 # Edit
 
 - Update headers to be compatible with react-native@0.40.0+
+- Add dependency library CoreLocation.framwork, to automatically link project.
 
+# Install
+
+React Native >=0.4.0 is needed.
+
+`npm install --save wisdom-garden/react-native-ibeacon`. 
+
+# Link
+`react-native link react-native-ibeacon`
+
+
+
+`npm install --save react-native-ibeacon`. React Native >=0.4.0 is needed.
 
 # Original Readme
 
