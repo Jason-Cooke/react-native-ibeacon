@@ -9,14 +9,11 @@ Forked from [@frostney frostney/react-native-ibeacon](https://github.com/frostne
 
 React Native >=0.4.0 is needed.
 
-`npm install --save wisdom-garden/react-native-ibeacon`. 
+`npm install --save wisdom-garden/react-native-ibeacon`.
 
 # Link
 `react-native link react-native-ibeacon`
 
-
-
-`npm install --save react-native-ibeacon`. React Native >=0.4.0 is needed.
 
 # Original Readme
 
