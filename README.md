@@ -209,7 +209,7 @@ By default, the array is sorted by the `rssi` value of the beacons.
 ### regionDidEnter
 If the device entered a region, `regionDidEnter` is being called.
 
-Inside the callback the paramter we can use returns an object with a property `region` that contains the region identifier value as a string. Additionally, we get the UUID of the region through its `uuid` property.
+Inside the callback the parameter we can use returns an object with a property `region` that contains the region identifier value as a string. Additionally, we get the UUID of the region through its `uuid` property.
 ```javascript
 {
   region: String,
